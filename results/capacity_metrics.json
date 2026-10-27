@@ -1,0 +1,20 @@
+{
+  "source": "NASA B0005 measured discharge capacities; see data/PROVENANCE.md",
+  "split": "first 134 train, final 34 test (chronological)",
+  "total_discharge_cycles": 168,
+  "train_cycles": 134,
+  "test_cycles": 34,
+  "capacity_initial_ah": 1.8564874208181574,
+  "capacity_final_ah": 1.3250793286429356,
+  "observed_capacity_change_pct": -28.624384211611265,
+  "baseline_capacity_ah": 1.8352043352523866,
+  "trend_slope_ah_per_discharge_cycle": -0.0037386418237664028,
+  "test_capacity_mae_mah_fixed": 510.24636485904375,
+  "test_capacity_mae_mah_trend": 27.917420910358093,
+  "test_capacity_rmse_mah_trend": 34.83807437761532,
+  "test_capacity_mape_pct_trend": 2.1195385814098024,
+  "test_eod_soc_proxy_mae_percentage_points_fixed": 27.803245396588064,
+  "test_eod_soc_proxy_mae_percentage_points_trend": 2.1925912841894397,
+  "test_eod_soc_proxy_rmse_percentage_points_trend": 2.7606173208237674,
+  "validation_kind": "empirical capacity / EOD SOC proxy; NOT direct SOC or voltage validation"
+}
