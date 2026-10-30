@@ -167,17 +167,3 @@ Repository, NASA Ames Research Center, Moffett Field, California.
 |
 [Resume bullets](docs/RESUME_BULLETS.md)
 
-## GitHub upload
-
-```bash
-# From inside this extracted project folder:
-git init
-git add .
-git commit -m "Build NASA Li-ion Randles ECM validation project"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/li-ion-randles-validation.git
-git push -u origin main
-```
-
-The included GitHub Actions workflow automatically checks the empirical
-capacity metrics on each push.
